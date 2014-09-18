@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  DBApplication.h
 //  TouchEvent
 //
 //  Created by dengbin on 14/9/18.
@@ -8,10 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-{
-    UITextField *_textFiled;
-}
+@interface DBApplication : UIApplication
 
 @end
-

@@ -14,6 +14,7 @@
 		F7B46DE119CAB38800BE7103 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7B46DE019CAB38800BE7103 /* Images.xcassets */; };
 		F7B46DE419CAB38800BE7103 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7B46DE219CAB38800BE7103 /* LaunchScreen.xib */; };
 		F7B46DF019CAB38800BE7103 /* TouchEventTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F7B46DEF19CAB38800BE7103 /* TouchEventTests.m */; };
+		F7B46DFB19CAB3CE00BE7103 /* DBApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = F7B46DFA19CAB3CE00BE7103 /* DBApplication.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		F7B46DE919CAB38800BE7103 /* TouchEventTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TouchEventTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7B46DEE19CAB38800BE7103 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F7B46DEF19CAB38800BE7103 /* TouchEventTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TouchEventTests.m; sourceTree = "<group>"; };
+		F7B46DF919CAB3CE00BE7103 /* DBApplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBApplication.h; sourceTree = "<group>"; };
+		F7B46DFA19CAB3CE00BE7103 /* DBApplication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBApplication.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				F7B46DD819CAB38800BE7103 /* AppDelegate.m */,
 				F7B46DDA19CAB38800BE7103 /* ViewController.h */,
 				F7B46DDB19CAB38800BE7103 /* ViewController.m */,
+				F7B46DF919CAB3CE00BE7103 /* DBApplication.h */,
+				F7B46DFA19CAB3CE00BE7103 /* DBApplication.m */,
 				F7B46DDD19CAB38800BE7103 /* Main.storyboard */,
 				F7B46DE019CAB38800BE7103 /* Images.xcassets */,
 				F7B46DE219CAB38800BE7103 /* LaunchScreen.xib */,
@@ -219,6 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7B46DFB19CAB3CE00BE7103 /* DBApplication.m in Sources */,
 				F7B46DDC19CAB38800BE7103 /* ViewController.m in Sources */,
 				F7B46DD919CAB38800BE7103 /* AppDelegate.m in Sources */,
 				F7B46DD619CAB38800BE7103 /* main.m in Sources */,
